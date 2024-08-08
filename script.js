@@ -47,9 +47,7 @@ async function wordleGame(user_word){
     for(l = 0; l <= 4; l++){
         userW.push(userWord[l]);
         wordleW.push(wordleWord[l]);
-    }
-
-    console.log(wordleW);//del
+    }
 
     const result = [];
     const solved_char = '#';
